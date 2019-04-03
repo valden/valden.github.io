@@ -1,4 +1,12 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+#emacs
+*~
+[#]*[#]
+.\#*
+
+#result
+public/
+#_site/
+#.sass-cache/
+#.jekyll-cache/
+#.jekyll-metadata
+

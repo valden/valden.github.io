@@ -1,7 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "http://valden.github.io/"
 languageCode = "en-us"
 title = "My New Hugo Site"
-
 disqusShortname = "valded-github-io" # Optional, enable Disqus integration
 MetaDataFormat = "toml"
 theme = "hyde-x"
@@ -26,7 +25,7 @@ paginate = 10
     # If false display full article contents in blog index.
     # Otherwise show description and 'read on' link to individual blog post page.
     # Default (if omitted) is true.
-    truncate = true
+    truncate = false
 
     # Used when a given page doesn't set its own.
     defaultDescription = "Your default page description"
@@ -39,7 +38,7 @@ paginate = 10
     # Changes sidebar background and link/accent colours.
     # See below for more colour options.
     # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
-    theme = "theme-base-08"
+    theme = "theme-base-0d"
 
     # Select a syntax highight.
     # Check the static/css/highlight directory for options.
@@ -73,3 +72,8 @@ paginate = 10
     # Other social-like sidebar links
     rss = true  # switch to true to enable RSS icon link
     #flattr = ""  # populate with your flattr uid
+
+[[menu.main]]
+    name = "Bzzz" #Name in the navigation bar
+    weight = 10 #The larger the weight, the more on the right this item will be
+    url = "/bzzz/" #URL address
